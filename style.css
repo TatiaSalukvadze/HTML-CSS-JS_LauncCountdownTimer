@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100vw;
+    background-color: #261A2D;
+    /* linear-gradient(180deg, #1D1E28 0.12%, #261C2D 94.84%, #261A2D 100%); */
+    background-image: url('./images/bg-stars.svg');
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+main{
+    display:flex;
+    width:327px;
+    gap:16px;
+    margin-top:54px;
+}
+h1{
+    width: 327px;
+    margin-top:142px;
+    color: #FFF;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 6.136px;
+        text-transform: uppercase;
+}
+footer{
+    background-image: url('./images/pattern-hills.svg');
+    position:absolute;
+    bottom:0;
+    height: 168px;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .ims{
+    width:136px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.numdiv{
+    width: 70px;
+        height: 71px;
+        border-radius:8px;
+        background: #191A23;
+        position:relative;
+}
+.zeda,.qveda{
+    width: 70px;
+        height: 33px;
+}
+.zeda{
+    opacity: 0.9506;
+    background:#343650;
+    border-radius: 4px 4px 0px 0px;
+}
+.qveda{
+    background:#343650;
+    border-radius: 0px 0px 4px 4px;
+    }
+
+/* //////////// */
+.hor{
+    width: 70px;
+    display:flex;
+    align-items: center;
+    position: absolute;
+    top:30px;
+
+}
+.wre1,.wre2{
+    width: 3px;
+        height: 6px;
+        background: #191A23;
+}
+.wre1 {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.wre2{
+    border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+}
+hr{
+    border:0;
+    width: 64px;
+        height: 0.473px;
+        opacity: 0.253;
+            background: #191A23;
+}
+/* /////////// */
+.number{
+    width: 48px;
+        height: 38px;
+    color: #FB5E84;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 71px;
+        /* 197.222% */
+        letter-spacing: -1.08px;
+        position:absolute;
+        top:14px;
+        left:11px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+}
+section p{
+    color: #8385A9;
+        text-align: center;
+        font-size: 7px;
+        font-weight: 700;
+        letter-spacing: 2.959px;
+            padding-top: 9px;
+}
+
+@media (min-width:800px){
+    main {
+            display: flex;
+            width: 693px;
+            gap: 37px;
+            margin-top: 104px;
+        }
+    
+        h1 {
+            width: 450px;
+            margin-top: 132px;    
+            font-size: 22px;
+                letter-spacing: 7.5px;
+        }
+
+    
+        .numdiv {
+            width: 148px;
+                height: 150px;
+                border-radius: 10px;
+        }
+    
+        .zeda,
+        .qveda {
+            width: 148px;
+                height: 70px;
+        }
+    
+        .zeda {
+            border-radius: 8px 8px 0px 0px;
+        }
+    
+        .qveda {
+            border-radius: 0px 0px 8px 8px;
+        }
+    
+        /* //////////// */
+        .hor {
+            width: 148px;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            top: 64px;
+    
+        }
+      
+        hr {
+            width: 142px;
+        }
+    
+        /* /////////// */
+        .number {
+            width: 96px;
+            height: 71px;
+            font-size: 80px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 71px;
+                /* 88.75% */
+                letter-spacing: -2.4px;
+            position: absolute;
+            top: 34px;
+            left: 26.5px;
+            
+    
+        }
+    
+        section p {
+            font-size: 14px;
+                letter-spacing: 5.919px;
+                padding-top:16px;
+        }
+}
